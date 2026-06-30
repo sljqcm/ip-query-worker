@@ -1323,6 +1323,16 @@ function renderHtml(initData) {
           cacheBust: true,
           timeout: 5000,
         },
+		{
+          id: 'bytedance',
+          name: '原神',
+          countryCode: 'CN',
+          icon: ICONS.bytedance,
+          url: 'https://ys.mihoyo.com',
+          probe: 'image',
+          cacheBust: true,
+          timeout: 5000,
+        },
         {
           id: 'github',
           name: 'GitHub',
